@@ -11,5 +11,8 @@ jobs:
       - name: checkout the code
         uses: actions/checkout@v7.0.0
 
-      # - name: python install
-      #   uses: actions
+      - name: python install
+        run: pip install ruff
+
+      - name: check lint
+        run: ruff check .
