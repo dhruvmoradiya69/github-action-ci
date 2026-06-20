@@ -6,21 +6,21 @@ on:
 jobs:
   code:
     runs-on: ubuntu-latest
-    setps:
+    steps:
       - name: clone the code
         run: echo "clone the code"
   build:
     runs-on: ubuntu-latest
-    setps:
+    steps:
       - name: build code
         run: echo "build code"
   test:
     runs-on: ubuntu-latest
-    setps:
+    steps:
       - name: build test
         run: echo "build test"
   deploy:
     runs-on: ubuntu-latest
-    setps:
+    steps:
       - name: deploy the code
         run: echo "deploy the code"
