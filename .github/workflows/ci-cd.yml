@@ -5,7 +5,7 @@ on:
 
 jobs:
   code:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: clone the code
         run: echo "clone the code"
